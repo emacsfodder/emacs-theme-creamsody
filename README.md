@@ -23,6 +23,8 @@ M-x package-install creamsody-theme
 
 ![Multi window layout with various modes](creamsody-multi-window.png)
 
+![C and dired mode with dired subtree](creamsody-c-dired-subtree.png)
+
 ### Creamsody Mode line
 
 There's an optional modeline theme available, run `(creamsody-modeline)`:
@@ -46,6 +48,7 @@ There's an optional modeline theme available, run `(creamsody-modeline)`:
 - diff-hl
 - diff-indicator
 - dired+
+- dired-subtre
 - el-search
 - elfeed
 - elscreen
@@ -79,6 +82,7 @@ There's an optional modeline theme available, run `(creamsody-modeline)`:
 - smerge
 - term / ansi-colors
 - vline
+- window-divider-mode
 - whitespace-mode
 
 ### Screenshots
