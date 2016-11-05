@@ -27,11 +27,23 @@ M-x package-install creamsody-theme
 
 ### Creamsody Mode line
 
-There's an optional modeline theme available, run `(creamsody-modeline)`:
+There's a set of optional modeline themes available, run `(creamsody-modeline)` for the default. `(creamsody-modeline-one)`:
 
-**Creamsody modeline - screenshot**
+**Creamsody modeline one - screenshot**
 
-![](creamsody-modeline.png)
+![](creamsody-modeline-one.png)
+
+**Creamsody modeline two - screenshot**
+
+![](creamsody-modeline-two.png)
+
+**Creamsody modeline three - screenshot**
+
+![](creamsody-modeline-three.png)
+
+**Creamsody modeline four - screenshot**
+
+![](creamsody-modeline-four.png)
 
 ## Modes supported
 
