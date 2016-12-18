@@ -4,7 +4,7 @@
 
 ;; Authors: Jason Milkins <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-creamsody
-;; Version: 0.2.1
+;; Version: 0.2.2
 ;; Package-Requires: ((autothemer "0.2"))
 
 ;;; Commentary:
@@ -94,9 +94,9 @@
                       (creamsody-mid_cyan        "#005560" "#005f5f")
 
                       (creamsody-delimiter-one   "#5C7E81" "#5f8787")
-                      (creamsody-delimiter-two   "#507073" "#008787")
-                      (creamsody-delimiter-three "#466265" "#005f87")
-                      (creamsody-delimiter-four  "#3C5457" "#0087d7")
+                      (creamsody-delimiter-two   "#507073" "#008787"
+                      (creamsody-delimiter-three "#466265" "#005f5f")
+                      (creamsody-delimiter-four  "#3C5457" "#5f5f87")
 
                       (creamsody-identifiers-1   "#E5D5C5" "#ffdfaf")
                       (creamsody-identifiers-2   "#DFE5C5" "#dfdfaf")
