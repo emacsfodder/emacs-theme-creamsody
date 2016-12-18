@@ -6,10 +6,11 @@
 
 A color theme for Emacs.  Straight from the soda fountain.
 
-## Important
+## Autothemer
 
-Creamsody is only intended for use with 24bit (or better) displays,
-less than 16.8m color displays are not supported.
+Creamsody uses autothemer which dramatically improves coding comfort when writing themes for Emacs.
+
+If you're making Emacs themes, get it.
 
 ## Installation
 
