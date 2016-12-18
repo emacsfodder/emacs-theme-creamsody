@@ -94,7 +94,7 @@
                       (creamsody-mid_cyan        "#005560" "#005f5f")
 
                       (creamsody-delimiter-one   "#5C7E81" "#5f8787")
-                      (creamsody-delimiter-two   "#507073" "#008787"
+                      (creamsody-delimiter-two   "#507073" "#008787")
                       (creamsody-delimiter-three "#466265" "#005f5f")
                       (creamsody-delimiter-four  "#3C5457" "#5f5f87")
 
