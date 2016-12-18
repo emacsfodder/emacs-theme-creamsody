@@ -1,5 +1,3 @@
-![](https://labs.turbo.run/git-brag?user=emacsfodder&repo=emacs-theme-creamsody)
-
 [![MELPA](http://stable.melpa.org/packages/creamsody-theme-badge.svg)](http://stable.melpa.org/#/creamsody-theme) [![MELPA](http://melpa.org/packages/creamsody-theme-badge.svg)](http://melpa.org/#/creamsody-theme)
 
 # Creamsody
