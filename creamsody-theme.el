@@ -4,7 +4,7 @@
 
 ;; Authors: Jason Milkins <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-creamsody
-;; Version: 0.3.2
+;; Version: 0.3.3
 ;; Package-Requires: ((autothemer "0.2"))
 
 ;;; Commentary:
@@ -358,6 +358,14 @@
   (powerline-active2                         (:background creamsody-background1 :inherit 'mode-line))
   (powerline-inactive1                       (:background creamsody-medium :inherit 'mode-line-inactive))
   (powerline-inactive2                       (:background creamsody-background2 :inherit 'mode-line-inactive))
+
+  ;; MODE SUPPORT: spaceline)
+  (spaceline-evil-normal                     (:background creamsody-bright_blue :foreground creamsody-dark0))
+  (spaceline-evil-insert                     (:background creamsody-bright_yellow :foreground creamsody-dark0))
+  (spaceline-evil-visual                     (:background creamsody-bright_purple :foreground creamsody-dark0))
+  (spaceline-evil-motion                     (:background creamsody-bright_green :foreground creamsody-dark0))
+  (spaceline-evil-replace                    (:background creamsody-bright_orange :foreground creamsody-dark0))
+  (spaceline-evil-emacs                      (:background creamsody-bright_red :foreground creamsody-dark0))
 
   ;; MODE SUPPORT: smart-mode-line)
   (sml/modes                                 (:foreground creamsody-foreground0_hard :weight 'bold :bold t))
