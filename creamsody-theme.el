@@ -4,7 +4,7 @@
 
 ;; Authors: Jason Milkins <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-creamsody
-;; Version: 0.3.3
+;; Version: 0.3.4
 ;; Package-Requires: ((autothemer "0.2"))
 
 ;;; Commentary:
@@ -17,8 +17,6 @@
 
 (unless (>= emacs-major-version 24)
   (error "Requires Emacs 24 or later"))
-
-(deftheme creamsody "Straight from the soda fountain.")
 
 (autothemer-deftheme
  creamsody "Straight from the soda fountain."
