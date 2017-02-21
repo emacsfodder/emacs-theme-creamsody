@@ -1278,6 +1278,7 @@
 
 (defalias 'creamsody-modeline 'creamsody-modeline-one)
 
+;;;###autoload
 (and load-file-name
      (boundp 'custom-theme-load-path)
      (add-to-list 'custom-theme-load-path
