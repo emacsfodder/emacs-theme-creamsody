@@ -351,6 +351,14 @@
   (org-ellipsis                              (:foreground creamsody-bright_yellow :underline t))
   (org-footnote                              (:foreground creamsody-faded_aqua :underline t))
 
+  ;; MODE SUPPORT: markdown)
+  (markdown-header-face-1                    (:foreground creamsody-bright_orange))
+  (markdown-header-face-2                    (:foreground creamsody-bright_green))
+  (markdown-header-face-3                    (:foreground creamsody-bright_blue))
+  (markdown-header-face-4                    (:foreground creamsody-bright_yellow))
+  (markdown-header-face-5                    (:foreground creamsody-faded_aqua))
+  (markdown-header-face-6                    (:foreground creamsody-bright_green))
+  
   ;; MODE SUPPORT: powerline)
   (powerline-active1                         (:background creamsody-background2 :inherit 'mode-line))
   (powerline-active2                         (:background creamsody-background1 :inherit 'mode-line))
