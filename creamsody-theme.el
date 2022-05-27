@@ -4,7 +4,7 @@
 
 ;; Authors: Jason Milkins <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-creamsody
-;; Version: 0.3.12
+;; Version: 0.3.13
 ;; Package-Requires: ((autothemer "0.2"))
 
 ;;; Commentary:
@@ -127,7 +127,7 @@
 
  ((default                                   (:foreground creamsody-foreground0 :background creamsody-background0))
   (highlight                                 (:foreground creamsody-foreground0 :background creamsody-mid_cyan))
-  (cursor                                    (:background creamsody-mid_cyan))
+  (cursor                                    (:foreground creamsody-foreground0 :background creamsody-mid_cyan))
   (link                                      (:foreground creamsody-bright_blue :underline t))
   (link-visited                              (:foreground creamsody-bright_blue :underline nil))
 
@@ -142,7 +142,7 @@
   (window-divider-last-pixel                 (:foreground creamsody-muted_blue ))
 
   (linum                                     (:foreground creamsody-background4))
-  (hl-line                                   (:background creamsody-background_aqua))
+  (hl-line                                   (:background creamsody-background1))
   (region                                    (:background creamsody-mid_green :distant-foreground creamsody-foreground0))
   (secondary-selection                       (:background creamsody-mid_orange))
   (cua-rectangle                             (:background creamsody-mid_green :distant-foreground creamsody-foreground0))
