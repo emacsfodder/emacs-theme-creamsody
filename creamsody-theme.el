@@ -142,7 +142,7 @@
   (window-divider-last-pixel                 (:foreground creamsody-muted_blue ))
 
   (linum                                     (:foreground creamsody-background4))
-  (hl-line                                   (:background creamsody-background_aqua)
+  (hl-line                                   (:background creamsody-background_aqua))
   (region                                    (:background creamsody-mid_green :distant-foreground creamsody-foreground0))
   (secondary-selection                       (:background creamsody-mid_orange))
   (cua-rectangle                             (:background creamsody-mid_green :distant-foreground creamsody-foreground0))
