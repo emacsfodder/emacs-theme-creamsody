@@ -127,7 +127,7 @@
 
  ((default                                   (:foreground creamsody-foreground0 :background creamsody-background0))
   (highlight                                 (:foreground creamsody-foreground0 :background creamsody-mid_cyan))
-  (cursor                                    (:foreground creamsody-foreground0 :background creamsody-mid_cyan))
+  (cursor                                    (:background creamsody-muted_blue))
   (link                                      (:foreground creamsody-bright_blue :underline t))
   (link-visited                              (:foreground creamsody-bright_blue :underline nil))
 
