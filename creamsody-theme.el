@@ -126,7 +126,7 @@
   (creamsody-turquoise4           "#61ACBB" "turquoise4"))
 
  ((default                                   (:foreground creamsody-foreground0 :background creamsody-background0))
-  (highlight                                 (:foreground creamsody-foreground0 :background creamsody-background3))
+  (highlight                                 (:foreground creamsody-foreground0 :background creamsody-background2))
   (cursor                                    (:background creamsody-neutral_green))
   (link                                      (:foreground creamsody-bright_blue :underline t))
   (link-visited                              (:foreground creamsody-bright_blue :underline nil))
