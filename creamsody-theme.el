@@ -4,7 +4,7 @@
 
 ;; Authors: Jason Milkins <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-creamsody
-;; Version: 0.3.14
+;; Version: 0.3.15
 ;; Package-Requires: ((autothemer "0.2"))
 
 ;;; Commentary:
