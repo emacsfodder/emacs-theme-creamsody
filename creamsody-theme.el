@@ -394,7 +394,7 @@
   (isearch-fail                              (:foreground creamsody-foreground0_hard :background creamsody-faded_red))
 
   ;; MODE SUPPORT: show-paren)
-  (show-paren-match                          (:foreground creamsody-foreground0 :background creamsody-faded_blue))
+  (show-paren-match                          (:foreground creamsody-foreground0 :background creamsody-background2))
   (show-paren-mismatch                       (:foreground creamsody-foreground0_hard :background creamsody-faded_red))
 
   ;; MODE SUPPORT: anzu)
