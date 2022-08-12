@@ -1,18 +1,22 @@
-;;; creamsody.el --- Straight from the soda fountain.
-
+;;; creamsody.el --- Straight from the soda fountain
+;;
 ;; Copyright (c) 2015-2022 Jason Milkins (GNU/GPL Licence)
-
+;;
 ;; Authors: Jason Milkins <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-creamsody
-;; Version: 1.0.0
-;; Package-Requires: ((autothemer "0.2") (emacs "27.1"))
-
+;; Version: 1.0.1
+;; Package-Requires: ((autothemer "0.2") (emacs "24"))
+;;
 ;;; Commentary:
-;;  Straight from the soda fountain.
-
-;;; Supports terminal and uses Autothemer from 0.2.0
-
+;; Straight from the soda fountain.
+;;
+;; Supports terminal and uses Autothemer from 0.2.0
+;;
+;; Face specs are defined here.
+;;
 ;;; Code:
+(unless (>= emacs-major-version 24)
+  (error "Requires Emacs 24 or later"))
 
 (require 'autothemer)
 

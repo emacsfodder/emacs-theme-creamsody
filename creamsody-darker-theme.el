@@ -1,4 +1,4 @@
-;;; creamsody-theme.el --- Straight from the soda fountain
+;;; creamsody-darker-theme.el --- Straight from the soda fountain
 
 ;; Copyright (c) 2015-2022 Jason Milkins (GNU/GPL Licence)
 
@@ -12,7 +12,7 @@
 ;;
 ;; Supports terminal and uses Autothemer from 0.2.0
 ;;
-;; Soft version of creamsody.
+;; Darker version of creamsody.
 ;;
 ;;; Code:
 (unless (>= emacs-major-version 24)
@@ -20,18 +20,18 @@
 
 (require 'creamsody)
 
-(creamsody-deftheme creamsody
+(creamsody-deftheme creamsody-darker
  "Straight from the soda fountain."
  ((((class color) (min-colors #xFFFFFF)) ;; color column 1 GUI/24bit
    ((class color) (min-colors #xFF)))    ;; color column 2 Xterm/256
 
-  (creamsody-background0_hard     "#1D2021" "#1c1c1c")
-  (creamsody-background0          "#282C32" "#262626")
-  (creamsody-background0_soft     "#32302F" "#303030")
-  (creamsody-background1          "#3C3836" "#3a3a3a")
-  (creamsody-background2          "#504945" "#4e4e4e")
-  (creamsody-background3          "#665C54" "#626262")
-  (creamsody-background4          "#7C6F64" "#767676")
+  (creamsody-background0_hard     "#060607" "#020202")
+  (creamsody-background0          "#131418" "#0C0C0C")
+  (creamsody-background0_soft     "#181616" "#161616")
+  (creamsody-background1          "#22201E" "#202020")
+  (creamsody-background2          "#36312E" "#343434")
+  (creamsody-background3          "#4C443E" "#484848")
+  (creamsody-background4          "#62574E" "#5C5C5C")
 
   (creamsody-medium               "#928374" "#afafaf")
 
@@ -286,10 +286,10 @@
                   (file-name-as-directory
                    (file-name-directory load-file-name))))
 
-(provide-theme 'creamsody)
+(provide-theme 'creamsody-darker)
 
 ;; Local Variables:
 ;; eval: (when (fboundp 'rainbow-mode) (rainbow-mode 1))
 ;; End:
 
-;;; creamsody-theme.el ends here
+;;; creamsody-darker-theme.el ends here
