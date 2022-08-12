@@ -141,75 +141,75 @@
 
 
  (defface creamsody-modeline-one-active
-  `((t
-     (:foreground ,creamsody-faded_green
-                  :background ,creamsody-background_cyan
-                  :height 120
-                  :inverse-video nil
-                  :box (:line-width 6 :color ,creamsody-background_cyan :style nil))))
-  "creamsody modeline active one")
+   `((t
+      (:foreground ,creamsody-faded_green
+        :background ,creamsody-background_cyan
+        :height 120
+        :inverse-video nil
+        :box (:line-width 6 :color ,creamsody-background_cyan :style nil))))
+   "creamsody modeline active one")
 
  (defface creamsody-modeline-one-inactive
    `((t
       (:foreground ,creamsody-bright_green
-                   :background ,creamsody-muted_blue
-                   :height 120
-                   :inverse-video nil
-                   :box (:line-width 6 :color ,creamsody-muted_blue :style nil))))
+       :background ,creamsody-muted_blue
+       :height 120
+       :inverse-video nil
+       :box (:line-width 6 :color ,creamsody-muted_blue :style nil))))
    "creamsody modeline inactive one")
 
  (defface creamsody-modeline-two-active
    `((t
       (:foreground ,creamsody-bright_green
-                   :background ,creamsody-muted_blue
-                   :height 120
-                   :inverse-video nil
-                   :box (:line-width 6 :color ,creamsody-muted_blue :style nil))))
+       :background ,creamsody-muted_blue
+       :height 120
+       :inverse-video nil
+       :box (:line-width 6 :color ,creamsody-muted_blue :style nil))))
    "creamsody modeline active two")
 
  (defface creamsody-modeline-two-inactive
    `((t
       (:foreground ,creamsody-faded_green
-                   :background ,creamsody-background_cyan
-                   :height 120
-                   :inverse-video nil
-                   :box (:line-width 6 :color ,creamsody-background_cyan :style nil))))
+       :background ,creamsody-background_cyan
+       :height 120
+       :inverse-video nil
+       :box (:line-width 6 :color ,creamsody-background_cyan :style nil))))
    "creamsody modeline inactive two")
 
  (defface creamsody-modeline-three-active
    `((t
       (:foreground ,creamsody-background_cyan
-                   :background ,creamsody-muted_blue
-                   :height 120
-                   :inverse-video nil
-                   :box (:line-width 6 :color ,creamsody-muted_blue :style nil))))
+       :background ,creamsody-muted_blue
+       :height 120
+       :inverse-video nil
+       :box (:line-width 6 :color ,creamsody-muted_blue :style nil))))
    "creamsody modeline active three")
 
  (defface creamsody-modeline-three-inactive
    `((t
       (:foreground ,creamsody-neutral_blue
-                   :background ,creamsody-background_cyan
-                   :height 120
-                   :inverse-video nil
-                   :box (:line-width 6 :color ,creamsody-background_cyan :style nil))))
+       :background ,creamsody-background_cyan
+       :height 120
+       :inverse-video nil
+       :box (:line-width 6 :color ,creamsody-background_cyan :style nil))))
    "creamsody modeline inactive three")
 
  (defface creamsody-modeline-four-active
    `((t
       (:foreground ,creamsody-white
-                   :background ,creamsody-muted_blue
-                   :height 120
-                   :inverse-video nil
-                   :box (:line-width 6 :color ,creamsody-muted_blue :style nil))))
+       :background ,creamsody-muted_blue
+       :height 120
+       :inverse-video nil
+       :box (:line-width 6 :color ,creamsody-muted_blue :style nil))))
    "creamsody modeline active four")
 
  (defface creamsody-modeline-four-inactive
    `((t
       (:foreground ,creamsody-muted_blue
-                   :background ,creamsody-black
-                   :height 120
-                   :inverse-video nil
-                   :box (:line-width 6 :color ,creamsody-black :style nil))))
+       :background ,creamsody-black
+       :height 120
+       :inverse-video nil
+       :box (:line-width 6 :color ,creamsody-black :style nil))))
    "creamsody modeline inactive four")
 
 
