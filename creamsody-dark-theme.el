@@ -20,7 +20,7 @@
 
 (require 'creamsody)
 
-(creamsody-deftheme creamsody
+(creamsody-deftheme creamsody-dark
  "Straight from the soda fountain."
  ((((class color) (min-colors #xFFFFFF)) ;; color column 1 GUI/24bit
    ((class color) (min-colors #xFF)))    ;; color column 2 Xterm/256
@@ -286,7 +286,7 @@
                   (file-name-as-directory
                    (file-name-directory load-file-name))))
 
-(provide-theme 'creamsody)
+(provide-theme 'creamsody-dark)
 
 ;; Local Variables:
 ;; eval: (when (fboundp 'rainbow-mode) (rainbow-mode 1))
