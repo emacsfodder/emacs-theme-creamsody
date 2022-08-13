@@ -2,7 +2,7 @@
 
 # Creamsody
 
-![](creamsody.png)
+![](images/creamsody.png)
 
 A color theme for Emacs.  Straight from the soda fountain.
 
@@ -22,9 +22,9 @@ When your Emacs is setup to use MELPA do this:
 M-x package-install creamsody-theme
 ```
 
-![Multi window layout with various modes](creamsody-multi-window.png)
+![Multi window layout with various modes](screenshots/creamsody-multi-window.png)
 
-![C and dired mode with dired subtree](creamsody-c-dired-subtree.png)
+![C and dired mode with dired subtree](screenshot/screamsody-c-dired-subtree.png)
 
 ### Creamsody Mode line
 
@@ -32,19 +32,19 @@ There's a set of optional modeline themes available, run `(creamsody-modeline)` 
 
 **Creamsody modeline one - screenshot**
 
-![](creamsody-modeline-one.png)
+![](screenshot/screamsody-modeline-one.png)
 
 **Creamsody modeline two - screenshot**
 
-![](creamsody-modeline-two.png)
+![](screenshots/creamsody-modeline-two.png)
 
 **Creamsody modeline three - screenshot**
 
-![](creamsody-modeline-three.png)
+![](screenshots/creamsody-modeline-three.png)
 
 **Creamsody modeline four - screenshot**
 
-![](creamsody-modeline-four.png)
+![](screenshot/screamsody-modeline-four.png)
 
 ## Modes supported
 
