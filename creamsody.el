@@ -20,6 +20,7 @@
 
 (require 'autothemer)
 
+;;;###autoload
 (defmacro creamsody-deftheme (name description palette &rest body)
   "Create variations of creamsody with NAME, DESCRIPTION, PALETTE & BODY."
   `(autothemer-deftheme ,name ,description ,palette
