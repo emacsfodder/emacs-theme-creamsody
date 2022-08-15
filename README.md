@@ -22,13 +22,62 @@ When your Emacs is setup to use MELPA do this:
 M-x package-install creamsody-theme
 ```
 
-![Multi window layout with various modes](screenshots/creamsody-multi-window.png)
+Creamsody now comes in 3 variations, the original theme is still called `creamsody` and there are 2 
+darker/higher contrast versions, `creamsody-dark` and `creamsody-darker`.
 
-![C and dired mode with dired subtree](screenshot/screamsody-c-dired-subtree.png)
+We'll need to tell Emacs that the themes are safe, so we'll load them and respond to the Emacs prompts.
+
+For creamsody:
+
+```
+M-x load-theme creamsody
+```
+
+For creamsody-dark:
+
+```
+M-x load-theme creamsody-dark
+```
+
+For creamsody-darker:
+
+```
+M-x load-theme creamsody-darker
+```
+
+## Screenshots
+
+# Original theme - creamsody
+
+![](screenshots/creamsody-multi-window.png)
+
+![](screenshots/screamsody-c-dired-subtree.png)
+
+![](screenshots/creamsody-lisp.png)
+
+![](screenshots/creamsody-shell.png)
+
+![](screenshots/creamsody-yaml.png)
+
+# Dark theme - creamsody-dark
+
+![](screenshots/creamsody-dark-lisp.png)
+
+![](screenshots/creamsody-dark-shell.png)
+
+![](screenshots/creamsody-dark-yaml.png)
+
+# Darker theme - creamsody-darker
+
+![](screenshots/creamsody-darker-lisp.png)
+
+![](screenshots/creamsody-darker-shell.png)
+
+![](screenshots/creamsody-darker-yaml.png)
 
 ### Creamsody Mode line
 
-There's a set of optional modeline themes available, run `(creamsody-modeline)` for the default. `(creamsody-modeline-one)`:
+There's a set of optional modeline themes available, run `(creamsody-modeline)` for the default. `(creamsody-modeline-one)`: 
 
 **Creamsody modeline one - screenshot**
 
