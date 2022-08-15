@@ -2,7 +2,7 @@
 
 # Creamsody
 
-![](creamsody.png)
+![](images/creamsody.png)
 
 A color theme for Emacs.  Straight from the soda fountain.
 
