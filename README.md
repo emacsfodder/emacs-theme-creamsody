@@ -6,11 +6,12 @@
 
 A color theme for Emacs.  Straight from the soda fountain.
 
-## Autothemer
+How it was made
 
-Creamsody uses autothemer which dramatically improves coding comfort when writing themes for Emacs.
+Creamsody was built with [Autothemer](https://github.com/jasonm23/autothemer) and [Kurecolor](https://github.com/emacsfodder/kurecolor). 
+They dramatically improve developer happiness when writing themes for Emacs.
 
-If you're making Emacs themes, get it.
+If you're making Emacs themes you should check them out.
 
 ## Installation
 
