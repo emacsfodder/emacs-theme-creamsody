@@ -564,6 +564,14 @@
        (magit-head                                (:inherit 'magit-branch-local))
        (magit-popup-disabled-argument             (:foreground creamsody-foreground4))
 
+       ;; MODE SUPPORT: markdown)
+       (markdown-header-face-1                    (:height 1.9 :inherit 'variable-pitch :foreground creamsody-bright_blue))
+       (markdown-header-face-2                    (:height 1.8 :inherit 'variable-pitch :foreground creamsody-bright_yellow))
+       (markdown-header-face-3                    (:height 1.6 :inherit 'variable-pitch :foreground creamsody-bright_purple))
+       (markdown-header-face-4                    (:height 1.4 :inherit 'variable-pitch :foreground creamsody-bright_red))
+       (markdown-header-face-5                    (:height 1.3 :inherit 'variable-pitch :foreground creamsody-bright_green))
+       (markdown-header-face-6                    (:height 1.2 :inherit 'variable-pitch :foreground creamsody-bright_aqua))
+
        ;; MODE SUPPORT: term)
        (term-color-black                          (:foreground creamsody-background1))
        (term-color-blue                           (:foreground creamsody-neutral_blue))
