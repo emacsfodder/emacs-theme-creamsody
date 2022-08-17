@@ -94,7 +94,7 @@ There's a set of optional modeline themes available, run `(creamsody-modeline)` 
 
 **Creamsody modeline four - screenshot**
 
-![](screenshot/screamsody-modeline-four.png)
+![](screenshots/screamsody-modeline-four.png)
 
 ## Modes supported
 
