@@ -6,7 +6,7 @@
 
 A color theme for Emacs.  Straight from the soda fountain.
 
-How it was made
+## How it was made
 
 Creamsody was built with [Autothemer](https://github.com/jasonm23/autothemer) and [Kurecolor](https://github.com/emacsfodder/kurecolor). 
 They dramatically improve developer happiness when writing themes for Emacs.
