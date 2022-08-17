@@ -66,7 +66,7 @@
        (font-lock-type-face                              (:foreground creamsody-foregroundblue4))
        (font-lock-warning-face                           (:foreground creamsody-neutral_red :bold t))
 
-        ;; MODE SUPPORT: whitespace-mode)
+       ;; MODE SUPPORT: whitespace-mode)
        (whitespace-space                          (:foreground creamsody-background4 :background creamsody-background0))
        (whitespace-hspace                         (:foreground creamsody-background4 :background creamsody-background0))
        (whitespace-tab                            (:foreground creamsody-background4 :background creamsody-background0))
@@ -78,7 +78,7 @@
        (whitespace-empty                          (:foreground nil :background nil))
        (whitespace-space-after-tab                (:foreground creamsody-background4 :background creamsody-background0))
 
-        ;; MODE SUPPORT: rainbow-delimiters)
+       ;; MODE SUPPORT: rainbow-delimiters)
        (rainbow-delimiters-depth-1-face           (:foreground creamsody-delimiter-one))
        (rainbow-delimiters-depth-2-face           (:foreground creamsody-delimiter-two))
        (rainbow-delimiters-depth-3-face           (:foreground creamsody-delimiter-three))
@@ -93,7 +93,7 @@
        (rainbow-delimiters-depth-12-face          (:foreground creamsody-delimiter-four))
        (rainbow-delimiters-unmatched-face         (:foreground creamsody-foreground0 :background nil))
 
-        ;; MODE SUPPORT: rainbow-identifiers)
+       ;; MODE SUPPORT: rainbow-identifiers)
        (rainbow-identifiers-identifier-1          (:foreground creamsody-identifiers-1))
        (rainbow-identifiers-identifier-2          (:foreground creamsody-identifiers-2))
        (rainbow-identifiers-identifier-3          (:foreground creamsody-identifiers-3))
@@ -110,7 +110,7 @@
        (rainbow-identifiers-identifier-14         (:foreground creamsody-identifiers-14))
        (rainbow-identifiers-identifier-15         (:foreground creamsody-identifiers-15))
 
-        ;; MODE SUPPORT: ido)
+       ;; MODE SUPPORT: ido)
        (ido-indicator                             (:background creamsody-bright_red :foreground creamsody-bright_yellow))
        (ido-subdir                                (:foreground creamsody-foreground3))
        (ido-first-match                           (:foreground creamsody-faded_cyan :background creamsody-background0_hard))
@@ -119,20 +119,20 @@
        (ido-vertical-only-match-face              (:foreground creamsody-bright_cyan))
        (ido-vertical-first-match-face             (:foreground creamsody-bright_cyan :background creamsody-background_blue))
 
-        ;; MODE SUPPORT: linum-relative
+       ;; MODE SUPPORT: linum-relative
        (linum-relative-current-face               (:foreground creamsody-foreground4 :background creamsody-background1))
 
-        ;; MODE SUPPORT: highlight-indentation-mode
+       ;; MODE SUPPORT: highlight-indentation-mode
        (highlight-indentation-current-column-face (:background creamsody-background4))
        (highlight-indentation-face                (:background creamsody-background1))
 
-        ;; MODE SUPPORT: highlight-numbers
+       ;; MODE SUPPORT: highlight-numbers
        (highlight-numbers-number                  (:foreground creamsody-bright_purple :bold nil))
 
-        ;; MODE SUPPORT: highlight-symbol
+       ;; MODE SUPPORT: highlight-symbol
        (highlight-symbol-face                     (:foreground creamsody-neutral_purple))
 
-        ;; MODE SUPPORT: hi-lock
+       ;; MODE SUPPORT: hi-lock
        (hi-blue                                   (:foreground creamsody-background0_hard :background creamsody-bright_blue))
        (hi-green                                  (:foreground creamsody-background0_hard :background creamsody-bright_green))
        (hi-pink                                   (:foreground creamsody-background0_hard :background creamsody-bright_purple))
@@ -143,48 +143,48 @@
        (hi-black-b                                (:foreground creamsody-bright_orange :background creamsody-background0_hard :bold t))
        (hi-black-hb                               (:foreground creamsody-bright_cyan :background creamsody-background0_hard :bold t))
 
-        ;; MODE SUPPORT: smartparens
+       ;; MODE SUPPORT: smartparens
        (sp-pair-overlay-face                      (:background creamsody-background2))
        (sp-show-pair-match-face                   (:background creamsody-background2)) ;; Pair tags highlight
        (sp-show-pair-mismatch-face                (:background creamsody-neutral_red)) ;; Highlight for bracket without pair
 
-        ;; MODE SUPPORT: auctex
+       ;; MODE SUPPORT: auctex
        (font-latex-math-face                      (:foreground creamsody-foregroundblue4))
        (font-latex-sectioning-5-face              (:foreground creamsody-neutral_green))
        (font-latex-string-face                    (:inherit 'font-lock-string-face))
        (font-latex-warning-face                   (:inherit 'warning))
 
-        ;; MODE SUPPORT: elscreen)
+       ;; MODE SUPPORT: elscreen)
        (elscreen-tab-background-face              (:background creamsody-background0 :box nil)) ;; Tab bar, not the tabs)
        (elscreen-tab-control-face                 (:foreground creamsody-neutral_red :background creamsody-background2 :box nil :underline nil)) ;; The controls)
        (elscreen-tab-current-screen-face          (:foreground creamsody-background0 :background creamsody-background4 :box nil)) ;; Current tab)
        (elscreen-tab-other-screen-face            (:foreground creamsody-foreground4 :background creamsody-background2 :box nil :underline nil)) ;; Inactive tab)
 
-        ;; MODE SUPPORT: embrace)
+       ;; MODE SUPPORT: embrace)
        (embrace-help-pair-face                    (:foreground creamsody-bright_blue))
        (embrace-help-separator-face               (:foreground creamsody-bright_orange))
        (embrace-help-key-face                     (:weight 'bold creamsody-bright_green))
        (embrace-help-mark-func-face               (:foreground creamsody-bright_cyan))
 
-        ;; MODE SUPPORT: ag (The Silver Searcher))
+       ;; MODE SUPPORT: ag (The Silver Searcher))
        (ag-hit-face                               (:foreground creamsody-neutral_blue))
        (ag-match-face                             (:foreground creamsody-neutral_red))
 
-        ;; MODE SUPPORT: RipGrep)
+       ;; MODE SUPPORT: RipGrep)
        (ripgrep-hit-face                          (:inherit 'ag-hit-face))
        (ripgrep-match-face                        (:inherit 'ag-match-face))
 
-        ;; MODE SUPPORT: diff)
+       ;; MODE SUPPORT: diff)
        (diff-changed                              (:foreground creamsody-foreground1 :background nil))
        (diff-added                                (:foreground creamsody-neutral_green :background nil))
        (diff-removed                              (:foreground creamsody-neutral_red :background nil))
 
-        ;; MODE SUPPORT: diff-indicator)
+       ;; MODE SUPPORT: diff-indicator)
        (diff-indicator-changed                    (:inherit 'diff-changed))
        (diff-indicator-added                      (:inherit 'diff-added))
        (diff-indicator-removed                    (:inherit 'diff-removed))
 
-        ;; MODE SUPPORT: diff-hl)
+       ;; MODE SUPPORT: diff-hl)
        (diff-hl-change                            (:inherit 'diff-changed))
        (diff-hl-delete                            (:inherit 'diff-removed))
        (diff-hl-insert                            (:inherit 'diff-added))
@@ -203,7 +203,7 @@
        (js2-jsdoc-html-tag-name                   (:foreground creamsody-foreground4 :background nil))
        (js2-jsdoc-html-tag-delimiter              (:foreground creamsody-foreground3 :background nil))
 
-        ;; MODE SUPPORT: haskell)
+       ;; MODE SUPPORT: haskell)
        (haskell-interactive-face-compile-warning  (:underline (:color creamsody-bright_yellow :style 'wave)))
        (haskell-interactive-face-compile-error    (:underline (:color creamsody-bright_red :style 'wave)))
        (haskell-interactive-face-garbage          (:foreground creamsody-background4 :background nil))
@@ -213,7 +213,7 @@
        (haskell-pragma-face                       (:foreground creamsody-medium :background nil))
        (haskell-constructor-face                  (:foreground creamsody-neutral_aqua :background nil))
 
-        ;; MODE SUPPORT: org-mode)
+       ;; MODE SUPPORT: org-mode)
        (org-agenda-date-today                     (:foreground creamsody-foreground2 :slant 'italic :weight 'bold))
        (org-agenda-structure                      (:inherit 'font-lock-comment-face))
        (org-archived                              (:foreground creamsody-foreground0 :weight 'bold))
@@ -251,13 +251,13 @@
        (org-ellipsis                              (:foreground creamsody-bright_yellow :underline t))
        (org-footnote                              (:foreground creamsody-faded_aqua :underline t))
 
-        ;; MODE SUPPORT: powerline)
+       ;; MODE SUPPORT: powerline)
        (powerline-active1                         (:background creamsody-background2 :inherit 'mode-line))
        (powerline-active2                         (:background creamsody-background1 :inherit 'mode-line))
        (powerline-inactive1                       (:background creamsody-medium :inherit 'mode-line-inactive))
        (powerline-inactive2                       (:background creamsody-background2 :inherit 'mode-line-inactive))
 
-        ;; MODE SUPPORT: spaceline)
+       ;; MODE SUPPORT: spaceline)
        (spaceline-evil-normal                     (:background creamsody-bright_blue :foreground creamsody-background0))
        (spaceline-evil-insert                     (:background creamsody-bright_yellow :foreground creamsody-background0))
        (spaceline-evil-visual                     (:background creamsody-bright_purple :foreground creamsody-background0))
@@ -265,7 +265,7 @@
        (spaceline-evil-replace                    (:background creamsody-bright_orange :foreground creamsody-background0))
        (spaceline-evil-emacs                      (:background creamsody-bright_red :foreground creamsody-background0))
 
-        ;; MODE SUPPORT: smart-mode-line)
+       ;; MODE SUPPORT: smart-mode-line)
        (sml/modes                                 (:foreground creamsody-foreground0_hard :weight 'bold :bold t))
        (sml/minor-modes                           (:foreground creamsody-neutral_orange))
        (sml/filename                              (:foreground creamsody-foreground0_hard :weight 'bold :bold t))
@@ -288,15 +288,15 @@
        (highlight                                 (:foreground creamsody-foreground0_hard :background creamsody-faded_blue))
        (match                                     (:foreground creamsody-foreground0 :background creamsody-mid_orange))
 
-        ;; MODE SUPPORT: isearch)
+       ;; MODE SUPPORT: isearch)
        (isearch                                   (:foreground creamsody-foreground0 :background creamsody-mid_cyan))
        (isearch-fail                              (:foreground creamsody-foreground0_hard :background creamsody-faded_red))
 
-        ;; MODE SUPPORT: show-paren)
+       ;; MODE SUPPORT: show-paren)
        (show-paren-match                          (:foreground creamsody-foreground0 :background creamsody-background2))
        (show-paren-mismatch                       (:foreground creamsody-foreground0_hard :background creamsody-faded_red))
 
-        ;; MODE SUPPORT: anzu)
+       ;; MODE SUPPORT: anzu)
        (anzu-mode-line                            (:foreground creamsody-foreground0 :height 100 :background creamsody-faded_blue))
        (anzu-match-1                              (:foreground creamsody-background0 :background creamsody-bright_green))
        (anzu-match-2                              (:foreground creamsody-background0 :background creamsody-bright_yellow))
@@ -304,11 +304,11 @@
        (anzu-replace-highlight                    (:background creamsody-background_aqua))
        (anzu-replace-to                           (:background creamsody-background_cyan))
 
-        ;; MODE SUPPORT: el-search)
+       ;; MODE SUPPORT: el-search)
        (el-search-match                           (:background creamsody-background_cyan))
        (el-search-other-match                     (:background creamsody-background_blue))
 
-        ;; MODE SUPPORT: avy)
+       ;; MODE SUPPORT: avy)
        (avy-lead-face-0                           (:foreground creamsody-bright_blue))
        (avy-lead-face-1                           (:foreground creamsody-bright_aqua))
        (avy-lead-face-2                           (:foreground creamsody-bright_purple))
@@ -316,7 +316,7 @@
        (avy-background-face                       (:foreground creamsody-background3))
        (avy-goto-char-timer-face                  (:inherit 'highlight))
 
-        ;; MODE SUPPORT: popup)
+       ;; MODE SUPPORT: popup)
        (popup-face                                (:foreground creamsody-foreground0 :background creamsody-background1))
        (popup-menu-mouse-face                     (:foreground creamsody-foreground0 :background creamsody-faded_blue))
        (popup-menu-selection-face                 (:foreground creamsody-foreground0 :background creamsody-faded_blue))
@@ -324,15 +324,15 @@
         ;; Use tip colors for the pos-tip color vars (see below))
 
         ;; Inherit ac-dabbrev from popup menu face)
-        ;; MODE SUPPORT: ac-dabbrev)
+       ;; MODE SUPPORT: ac-dabbrev)
        (ac-dabbrev-menu-face                      (:inherit 'popup-face))
        (ac-dabbrev-selection-face                 (:inherit 'popup-menu-selection-face))
 
-        ;; MODE SUPPORT: sh mode)
+       ;; MODE SUPPORT: sh mode)
        (sh-heredoc                                (:foreground creamsody-backgroundslategray4 :background nil))
        (sh-quoted-exec                            (:foreground creamsody-backgroundslategray4 :background nil))
 
-        ;; MODE SUPPORT: company)
+       ;; MODE SUPPORT: company)
        (company-echo                              (:inherit 'company-echo-common))
        (company-echo-common                       (:foreground creamsody-bright_blue :background nil))
        (company-preview-common                    (:underline creamsody-foreground1))
@@ -349,7 +349,7 @@
        (company-tooltip-mouse                     (:foreground creamsody-background0 :background creamsody-bright_blue))
        (company-tooltip-selection                 (:foreground creamsody-foreground0 :background creamsody-faded_blue))
 
-        ;; MODE SUPPORT: dired+)
+       ;; MODE SUPPORT: dired+)
        (diredp-file-name                          (:foreground creamsody-foreground2))
        (diredp-file-suffix                        (:foreground creamsody-foreground4))
        (diredp-compressed-file-name               (:foreground creamsody-neutral_cyan))
@@ -370,7 +370,7 @@
        (diredp-read-priv                          (:foreground creamsody-bright_red  :background creamsody-background_red))
        (diredp-write-priv                         (:foreground creamsody-bright_aqua :background creamsody-background_aqua))
 
-        ;; MODE SUPPORT: dired-subtree)
+       ;; MODE SUPPORT: dired-subtree)
        (dired-subtree-depth-1-face                (:background nil))
        (dired-subtree-depth-2-face                (:background nil))
        (dired-subtree-depth-3-face                (:background nil))
@@ -378,7 +378,7 @@
        (dired-subtree-depth-5-face                (:background nil))
        (dired-subtree-depth-6-face                (:background nil))
 
-        ;; MODE SUPPORT: helm)
+       ;; MODE SUPPORT: helm)
        (helm-M-x-key                              (:foreground creamsody-neutral_orange))
        (helm-action                               (:foreground creamsody-white :underline t))
        (helm-bookmark-addressbook                 (:foreground creamsody-neutral_red))
@@ -422,29 +422,29 @@
        (helm-source-header                        (:foreground creamsody-foreground2 :background creamsody-background1))
        (helm-visible-mark                         (:foreground creamsody-black :background creamsody-foreground3))
 
-        ;; MODE SUPPORT: column-marker)
+       ;; MODE SUPPORT: column-marker)
        (column-marker-1                           (:background creamsody-faded_blue))
        (column-marker-2                           (:background creamsody-faded_purple))
        (column-marker-3                           (:background creamsody-faded_cyan))
 
-        ;; MODE SUPPORT: vline)
+       ;; MODE SUPPORT: vline)
        (vline                                     (:background creamsody-background_aqua))
        (vline-visual                              (:background creamsody-background_aqua))
 
-        ;; MODE SUPPORT: col-highlight)
+       ;; MODE SUPPORT: col-highlight)
        (col-highlight                             (:inherit 'vline))
 
-        ;; MODE SUPPORT: column-enforce-mode)
+       ;; MODE SUPPORT: column-enforce-mode)
        (column-enforce-face                       (:foreground creamsody-background4 :background creamsody-background_red))
 
-        ;; MODE SUPPORT: hydra)
+       ;; MODE SUPPORT: hydra)
        (hydra-face-red                            (:foreground creamsody-bright_red))
        (hydra-face-blue                           (:foreground creamsody-bright_blue))
        (hydra-face-pink                           (:foreground creamsody-identifiers-15))
        (hydra-face-amaranth                       (:foreground creamsody-faded_purple))
        (hydra-face-teal                           (:foreground creamsody-faded_cyan))
 
-        ;; MODE SUPPORT: ivy)
+       ;; MODE SUPPORT: ivy)
        (ivy-current-match                         (:foreground creamsody-foreground0 :background creamsody-faded_blue))
        (ivy-minibuffer-match-face-1               (:background creamsody-background1))
        (ivy-minibuffer-match-face-2               (:background creamsody-background2))
@@ -454,7 +454,7 @@
        (ivy-match-required-face                   (:foreground creamsody-bright_red))
        (ivy-remote                                (:foreground creamsody-neutral_blue))
 
-        ;; MODE SUPPORT: smerge)
+       ;; MODE SUPPORT: smerge)
         ;; TODO: smerge-base, smerge-refined-changed)
        (smerge-mine                               (:background creamsody-mid_purple))
        (smerge-other                              (:background creamsody-mid_blue))
@@ -462,14 +462,14 @@
        (smerge-refined-added                      (:background creamsody-background_green))
        (smerge-refined-removed                    (:background creamsody-background_red))
 
-        ;; MODE SUPPORT: git-gutter)
+       ;; MODE SUPPORT: git-gutter)
        (git-gutter:separator                      (:inherit 'git-gutter+-separator))
        (git-gutter:modified                       (:inherit 'git-gutter+-modified))
        (git-gutter:added                          (:inherit 'git-gutter+-added))
        (git-gutter:deleted                        (:inherit 'git-gutter+-deleted))
        (git-gutter:unchanged                      (:inherit 'git-gutter+-unchanged))
 
-        ;; MODE SUPPORT: git-gutter+)
+       ;; MODE SUPPORT: git-gutter+)
        (git-gutter+-commit-header-face            (:inherit 'font-lock-comment-face))
        (git-gutter+-added                         (:foreground creamsody-faded_green :background creamsody-muted_green))
        (git-gutter+-deleted                       (:foreground creamsody-faded_red :background creamsody-muted_red))
@@ -477,12 +477,12 @@
        (git-gutter+-separator                     (:foreground creamsody-faded_cyan :background creamsody-muted_cyan))
        (git-gutter+-unchanged                     (:foreground creamsody-faded_yellow :background creamsody-muted_yellow))
 
-        ;; MODE SUPPORT: git-gutter-fr+)
+       ;; MODE SUPPORT: git-gutter-fr+)
        (git-gutter-fr+-added                      (:inherit 'git-gutter+-added))
        (git-gutter-fr+-deleted                    (:inherit 'git-gutter+-deleted))
        (git-gutter-fr+-modified                   (:inherit 'git-gutter+-modified))
 
-        ;; MODE SUPPORT: magit)
+       ;; MODE SUPPORT: magit)
        (magit-branch                              (:foreground creamsody-turquoise4 :background nil))
        (magit-branch-local                        (:foreground creamsody-turquoise4 :background nil))
        (magit-branch-remote                       (:foreground creamsody-aquamarine4 :background nil))
@@ -564,7 +564,7 @@
        (magit-head                                (:inherit 'magit-branch-local))
        (magit-popup-disabled-argument             (:foreground creamsody-foreground4))
 
-        ;; MODE SUPPORT: term)
+       ;; MODE SUPPORT: term)
        (term-color-black                          (:foreground creamsody-background1))
        (term-color-blue                           (:foreground creamsody-neutral_blue))
        (term-color-cyan                           (:foreground creamsody-neutral_cyan))
@@ -576,14 +576,14 @@
        (term-default-fg-color                     (:foreground creamsody-foreground0))
        (term-default-bg-color                     (:background creamsody-background0))
 
-        ;; MODE SUPPORT: Elfeed)
+       ;; MODE SUPPORT: Elfeed)
        (elfeed-search-date-face                    (:foreground creamsody-muted_cyan))
        (elfeed-search-feed-face                    (:foreground creamsody-faded_cyan))
        (elfeed-search-tag-face                     (:foreground creamsody-foreground3))
        (elfeed-search-title-face                   (:foreground creamsody-foreground3 :bold nil))
        (elfeed-search-unread-title-face            (:foreground creamsody-foreground0_hard :bold nil))
 
-        ;; MODE SUPPORT: message)
+       ;; MODE SUPPORT: message)
        (message-header-to                          (:foreground creamsody-bright_cyan))
        (message-header-cc                          (:foreground creamsody-bright_cyan))
        (message-header-subject                     (:foreground creamsody-foreground2))
