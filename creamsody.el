@@ -431,6 +431,13 @@
        (vline                                     (:background creamsody-background_aqua))
        (vline-visual                              (:background creamsody-background_aqua))
 
+       ;; MODE SUPPORT: vertico-posframe)
+       (vertico-posframe                          (:background creamsody-background0_hard))
+       (vertico-posframe-border                   (:background creamsody-background0_hard))
+       (vertico-posframe-border-2                 (:background creamsody-background0))
+       (vertico-posframe-border-3                 (:background creamsody-background1))
+       (vertico-posframe-border-4                 (:background creamsody-background2))
+
        ;; MODE SUPPORT: col-highlight)
        (col-highlight                             (:inherit 'vline))
 
