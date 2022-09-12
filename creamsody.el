@@ -4,7 +4,7 @@
 ;;
 ;; Authors: Jason Milkins <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-creamsody
-;; Version: 1.0.5
+;; Version: 1.0.6
 ;; Package-Requires: ((autothemer "0.2") (emacs "24"))
 ;;
 ;;; Commentary:
@@ -65,6 +65,28 @@
        (font-lock-variable-name-face                     (:foreground creamsody-aquamarine4))
        (font-lock-type-face                              (:foreground creamsody-foregroundblue4))
        (font-lock-warning-face                           (:foreground creamsody-neutral_red :bold t))
+
+       (ansi-color-bold                           (:weight 'bold))
+       (ansi-color-faint                          (:weight 'light))
+       (ansi-color-italic                         (:slant 'italic))
+       (ansi-color-underline                      (:underline t))
+       (ansi-color-inverse                        (:inverse-video t))
+       (ansi-color-black                          (:foreground creamsody-black            :background creamsody-black))
+       (ansi-color-red                            (:foreground creamsody-faded_red        :background creamsody-faded_red))
+       (ansi-color-green                          (:foreground creamsody-identifiers-4    :background creamsody-identifiers-4))
+       (ansi-color-yellow                         (:foreground creamsody-foreground0_soft :background creamsody-foreground0_soft))
+       (ansi-color-blue                           (:foreground creamsody-background_cyan  :background creamsody-background_cyan))
+       (ansi-color-magenta                        (:foreground creamsody-delimiter-three  :background creamsody-delimiter-three))
+       (ansi-color-cyan                           (:foreground creamsody-neutral_cyan     :background creamsody-neutral_cyan))
+       (ansi-color-white                          (:foreground creamsody-white            :background creamsody-white))
+       (ansi-color-bright-black                   (:foreground creamsody-background3      :background creamsody-background3))
+       (ansi-color-bright-red                     (:foreground creamsody-bright_red       :background creamsody-bright_red))
+       (ansi-color-bright-green                   (:foreground creamsody-identifiers-4    :background creamsody-identifiers-4))
+       (ansi-color-bright-yellow                  (:foreground creamsody-foreground0_hard :background creamsody-foreground0_hard))
+       (ansi-color-bright-blue                    (:foreground creamsody-background_cyan  :background creamsody-background_cyan))
+       (ansi-color-bright-magenta                 (:foreground creamsody-delimiter-one    :background creamsody-delimiter-one))
+       (ansi-color-bright-cyan                    (:foreground creamsody-faded_orange     :background creamsody-faded_orange))
+       (ansi-color-bright-white                   (:foreground creamsody-white            :background creamsody-white))
 
        ;; MODE SUPPORT: whitespace-mode)
        (whitespace-space                          (:foreground creamsody-background4 :background creamsody-background0))
