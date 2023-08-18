@@ -28,10 +28,10 @@
        (highlight                                 (:foreground creamsody-foreground0 :background creamsody-mid_cyan))
        (cursor                                    (:background creamsody-muted_blue))
        (link                                      (:foreground creamsody-bright_blue :underline t))
-       (link-visited                              (:foreground creamsody-bright_blue :underline nil))
+       (link-visited                              (:foreground creamsody-bright_blue :underline 'unspecified))
 
-       (mode-line                                 (:foreground creamsody-foreground1 :background creamsody-background0_hard :box nil))
-       (mode-line-inactive                        (:foreground creamsody-foreground4 :background creamsody-background2 :box nil))
+       (mode-line                                 (:foreground creamsody-foreground1 :background creamsody-background0_hard :box 'unspecified))
+       (mode-line-inactive                        (:foreground creamsody-foreground4 :background creamsody-background2 :box 'unspecified))
        (fringe                                    (:background creamsody-background0))
        (vertical-border                           (:foreground creamsody-muted_blue))
        (border                                    (:background creamsody-muted_blue))
@@ -45,8 +45,8 @@
        (region                                    (:background creamsody-mid_green :distant-foreground creamsody-foreground0))
        (secondary-selection                       (:background creamsody-mid_orange))
        (cua-rectangle                             (:background creamsody-mid_green :distant-foreground creamsody-foreground0))
-       (header-line                               (:foreground creamsody-turquoise4 :background creamsody-background0 :bold nil))
-       (minibuffer-prompt                         (:foreground creamsody-bright_cyan :background creamsody-background0 :bold nil))
+       (header-line                               (:foreground creamsody-turquoise4 :background creamsody-background0 :bold 'unspecified))
+       (minibuffer-prompt                         (:foreground creamsody-bright_cyan :background creamsody-background0 :bold 'unspecified))
 
         ;; compilation messages (also used by several other modes))
        (compilation-info                          (:foreground creamsody-neutral_green))
@@ -97,7 +97,7 @@
        (whitespace-line                           (:foreground creamsody-neutral_red :background creamsody-background1))
        (whitespace-space-before-tab               (:foreground creamsody-background4 :background creamsody-background0))
        (whitespace-indentation                    (:foreground creamsody-background4 :background creamsody-background0))
-       (whitespace-empty                          (:foreground nil :background nil))
+       (whitespace-empty                          (:foreground 'unspecified :background 'unspecified))
        (whitespace-space-after-tab                (:foreground creamsody-background4 :background creamsody-background0))
 
        ;; MODE SUPPORT: rainbow-delimiters)
@@ -113,7 +113,7 @@
        (rainbow-delimiters-depth-10-face          (:foreground creamsody-delimiter-two))
        (rainbow-delimiters-depth-11-face          (:foreground creamsody-delimiter-three))
        (rainbow-delimiters-depth-12-face          (:foreground creamsody-delimiter-four))
-       (rainbow-delimiters-unmatched-face         (:foreground creamsody-foreground0 :background nil))
+       (rainbow-delimiters-unmatched-face         (:foreground creamsody-foreground0 :background 'unspecified))
 
        ;; MODE SUPPORT: rainbow-identifiers)
        (rainbow-identifiers-identifier-1          (:foreground creamsody-identifiers-1))
@@ -149,7 +149,7 @@
        (highlight-indentation-face                (:background creamsody-background1))
 
        ;; MODE SUPPORT: highlight-numbers
-       (highlight-numbers-number                  (:foreground creamsody-bright_purple :bold nil))
+       (highlight-numbers-number                  (:foreground creamsody-bright_purple :bold 'unspecified))
 
        ;; MODE SUPPORT: highlight-symbol
        (highlight-symbol-face                     (:foreground creamsody-neutral_purple))
@@ -177,10 +177,10 @@
        (font-latex-warning-face                   (:inherit 'warning))
 
        ;; MODE SUPPORT: elscreen)
-       (elscreen-tab-background-face              (:background creamsody-background0 :box nil)) ;; Tab bar, not the tabs)
-       (elscreen-tab-control-face                 (:foreground creamsody-neutral_red :background creamsody-background2 :box nil :underline nil)) ;; The controls)
-       (elscreen-tab-current-screen-face          (:foreground creamsody-background0 :background creamsody-background4 :box nil)) ;; Current tab)
-       (elscreen-tab-other-screen-face            (:foreground creamsody-foreground4 :background creamsody-background2 :box nil :underline nil)) ;; Inactive tab)
+       (elscreen-tab-background-face              (:background creamsody-background0 :box 'unspecified)) ;; Tab bar, not the tabs)
+       (elscreen-tab-control-face                 (:foreground creamsody-neutral_red :background creamsody-background2 :box 'unspecified :underline 'unspecified)) ;; The controls)
+       (elscreen-tab-current-screen-face          (:foreground creamsody-background0 :background creamsody-background4 :box 'unspecified)) ;; Current tab)
+       (elscreen-tab-other-screen-face            (:foreground creamsody-foreground4 :background creamsody-background2 :box 'unspecified :underline 'unspecified)) ;; Inactive tab)
 
        ;; MODE SUPPORT: embrace)
        (embrace-help-pair-face                    (:foreground creamsody-bright_blue))
@@ -197,9 +197,9 @@
        (ripgrep-match-face                        (:inherit 'ag-match-face))
 
        ;; MODE SUPPORT: diff)
-       (diff-changed                              (:foreground creamsody-foreground1 :background nil))
-       (diff-added                                (:foreground creamsody-neutral_green :background nil))
-       (diff-removed                              (:foreground creamsody-neutral_red :background nil))
+       (diff-changed                              (:foreground creamsody-foreground1 :background 'unspecified))
+       (diff-added                                (:foreground creamsody-neutral_green :background 'unspecified))
+       (diff-removed                              (:foreground creamsody-neutral_red :background 'unspecified))
 
        ;; MODE SUPPORT: diff-indicator)
        (diff-indicator-changed                    (:inherit 'diff-changed))
@@ -214,26 +214,26 @@
        (js2-warning                               (:underline (:color creamsody-bright_yellow :style 'wave)))
        (js2-error                                 (:underline (:color creamsody-bright_red :style 'wave)))
        (js2-external-variable                     (:underline (:color creamsody-bright_aqua :style 'wave)))
-       (js2-jsdoc-tag                             (:foreground creamsody-medium :background nil))
-       (js2-jsdoc-type                            (:foreground creamsody-foreground4 :background nil))
-       (js2-jsdoc-value                           (:foreground creamsody-foreground3 :background nil))
-       (js2-function-param                        (:foreground creamsody-bright_aqua :background nil))
-       (js2-function-call                         (:foreground creamsody-bright_blue :background nil))
-       (js2-instance-member                       (:foreground creamsody-bright_orange :background nil))
-       (js2-private-member                        (:foreground creamsody-faded_yellow :background nil))
-       (js2-private-function-call                 (:foreground creamsody-faded_aqua :background nil))
-       (js2-jsdoc-html-tag-name                   (:foreground creamsody-foreground4 :background nil))
-       (js2-jsdoc-html-tag-delimiter              (:foreground creamsody-foreground3 :background nil))
+       (js2-jsdoc-tag                             (:foreground creamsody-medium :background 'unspecified))
+       (js2-jsdoc-type                            (:foreground creamsody-foreground4 :background 'unspecified))
+       (js2-jsdoc-value                           (:foreground creamsody-foreground3 :background 'unspecified))
+       (js2-function-param                        (:foreground creamsody-bright_aqua :background 'unspecified))
+       (js2-function-call                         (:foreground creamsody-bright_blue :background 'unspecified))
+       (js2-instance-member                       (:foreground creamsody-bright_orange :background 'unspecified))
+       (js2-private-member                        (:foreground creamsody-faded_yellow :background 'unspecified))
+       (js2-private-function-call                 (:foreground creamsody-faded_aqua :background 'unspecified))
+       (js2-jsdoc-html-tag-name                   (:foreground creamsody-foreground4 :background 'unspecified))
+       (js2-jsdoc-html-tag-delimiter              (:foreground creamsody-foreground3 :background 'unspecified))
 
        ;; MODE SUPPORT: haskell)
        (haskell-interactive-face-compile-warning  (:underline (:color creamsody-bright_yellow :style 'wave)))
        (haskell-interactive-face-compile-error    (:underline (:color creamsody-bright_red :style 'wave)))
-       (haskell-interactive-face-garbage          (:foreground creamsody-background4 :background nil))
-       (haskell-interactive-face-prompt           (:foreground creamsody-foreground0 :background nil))
-       (haskell-interactive-face-result           (:foreground creamsody-foreground3 :background nil))
-       (haskell-literate-comment-face             (:foreground creamsody-foreground0 :background nil))
-       (haskell-pragma-face                       (:foreground creamsody-medium :background nil))
-       (haskell-constructor-face                  (:foreground creamsody-neutral_aqua :background nil))
+       (haskell-interactive-face-garbage          (:foreground creamsody-background4 :background 'unspecified))
+       (haskell-interactive-face-prompt           (:foreground creamsody-foreground0 :background 'unspecified))
+       (haskell-interactive-face-result           (:foreground creamsody-foreground3 :background 'unspecified))
+       (haskell-literate-comment-face             (:foreground creamsody-foreground0 :background 'unspecified))
+       (haskell-pragma-face                       (:foreground creamsody-medium :background 'unspecified))
+       (haskell-constructor-face                  (:foreground creamsody-neutral_aqua :background 'unspecified))
 
        ;; MODE SUPPORT: org-mode)
        (org-agenda-date-today                     (:foreground creamsody-foreground2 :slant 'italic :weight 'bold))
@@ -265,7 +265,7 @@
        (org-time-grid                             (:foreground creamsody-bright_orange))
        (org-todo                                  (:foreground creamsody-bright_red :weight 'bold :bold t))
        (org-upcoming-deadline                     (:inherit 'font-lock-keyword-face))
-       (org-warning                               (:foreground creamsody-bright_red :weight 'bold :underline nil :bold t))
+       (org-warning                               (:foreground creamsody-bright_red :weight 'bold :underline 'unspecified :bold t))
        (org-column                                (:background creamsody-background0))
        (org-column-title                          (:background creamsody-background0_hard :underline t :weight 'bold))
        (org-mode-line-clock                       (:foreground creamsody-foreground2 :background creamsody-background0))
@@ -351,18 +351,18 @@
        (ac-dabbrev-selection-face                 (:inherit 'popup-menu-selection-face))
 
        ;; MODE SUPPORT: sh mode)
-       (sh-heredoc                                (:foreground creamsody-backgroundslategray4 :background nil))
-       (sh-quoted-exec                            (:foreground creamsody-backgroundslategray4 :background nil))
+       (sh-heredoc                                (:foreground creamsody-backgroundslategray4 :background 'unspecified))
+       (sh-quoted-exec                            (:foreground creamsody-backgroundslategray4 :background 'unspecified))
 
        ;; MODE SUPPORT: company)
        (company-echo                              (:inherit 'company-echo-common))
-       (company-echo-common                       (:foreground creamsody-bright_blue :background nil))
+       (company-echo-common                       (:foreground creamsody-bright_blue :background 'unspecified))
        (company-preview-common                    (:underline creamsody-foreground1))
        (company-preview                           (:inherit 'company-preview-common))
        (company-preview-search                    (:inherit 'company-preview-common))
-       (company-template-field                    (:foreground creamsody-bright_blue :background nil :underline creamsody-background_blue))
-       (company-scrollbar-fg                      (:foreground nil :background creamsody-background2))
-       (company-scrollbar-bg                      (:foreground nil :background creamsody-background3))
+       (company-template-field                    (:foreground creamsody-bright_blue :background 'unspecified :underline creamsody-background_blue))
+       (company-scrollbar-fg                      (:foreground 'unspecified :background creamsody-background2))
+       (company-scrollbar-bg                      (:foreground 'unspecified :background creamsody-background3))
        (company-tooltip                           (:foreground creamsody-foreground0_hard :background creamsody-background1))
        (company-preview-common                    (:inherit 'font-lock-comment-face))
        (company-tooltip-common                    (:foreground creamsody-foreground0 :background creamsody-background1))
@@ -393,12 +393,12 @@
        (diredp-write-priv                         (:foreground creamsody-bright_aqua :background creamsody-background_aqua))
 
        ;; MODE SUPPORT: dired-subtree)
-       (dired-subtree-depth-1-face                (:background nil))
-       (dired-subtree-depth-2-face                (:background nil))
-       (dired-subtree-depth-3-face                (:background nil))
-       (dired-subtree-depth-4-face                (:background nil))
-       (dired-subtree-depth-5-face                (:background nil))
-       (dired-subtree-depth-6-face                (:background nil))
+       (dired-subtree-depth-1-face                (:background 'unspecified))
+       (dired-subtree-depth-2-face                (:background 'unspecified))
+       (dired-subtree-depth-3-face                (:background 'unspecified))
+       (dired-subtree-depth-4-face                (:background 'unspecified))
+       (dired-subtree-depth-5-face                (:background 'unspecified))
+       (dired-subtree-depth-6-face                (:background 'unspecified))
 
        ;; MODE SUPPORT: helm)
        (helm-M-x-key                              (:foreground creamsody-neutral_orange))
@@ -512,12 +512,12 @@
        (git-gutter-fr+-modified                   (:inherit 'git-gutter+-modified))
 
        ;; MODE SUPPORT: magit)
-       (magit-branch                              (:foreground creamsody-turquoise4 :background nil))
-       (magit-branch-local                        (:foreground creamsody-turquoise4 :background nil))
-       (magit-branch-remote                       (:foreground creamsody-aquamarine4 :background nil))
+       (magit-branch                              (:foreground creamsody-turquoise4 :background 'unspecified))
+       (magit-branch-local                        (:foreground creamsody-turquoise4 :background 'unspecified))
+       (magit-branch-remote                       (:foreground creamsody-aquamarine4 :background 'unspecified))
        (magit-cherry-equivalent                   (:foreground creamsody-neutral_orange))
        (magit-cherry-unmatched                    (:foreground creamsody-neutral_purple))
-       (magit-diff-context                        (:foreground creamsody-background3 :background nil))
+       (magit-diff-context                        (:foreground creamsody-background3 :background 'unspecified))
        (magit-diff-context-highlight              (:foreground creamsody-background4 :background creamsody-background0_soft))
        (magit-diff-added                          (:foreground creamsody-bright_green :background creamsody-mid_green))
        (magit-diff-added-highlight                (:foreground creamsody-bright_green :background creamsody-mid_green))
@@ -617,8 +617,8 @@
        (elfeed-search-date-face                    (:foreground creamsody-muted_cyan))
        (elfeed-search-feed-face                    (:foreground creamsody-faded_cyan))
        (elfeed-search-tag-face                     (:foreground creamsody-foreground3))
-       (elfeed-search-title-face                   (:foreground creamsody-foreground3 :bold nil))
-       (elfeed-search-unread-title-face            (:foreground creamsody-foreground0_hard :bold nil))
+       (elfeed-search-title-face                   (:foreground creamsody-foreground3 :bold 'unspecified))
+       (elfeed-search-unread-title-face            (:foreground creamsody-foreground0_hard :bold 'unspecified))
 
        ;; MODE SUPPORT: message)
        (message-header-to                          (:foreground creamsody-bright_cyan))
@@ -688,7 +688,7 @@
        (compilation-warning                      (:inherit 'warning))
 
        (completions-annotations                  (:inherit 'italic))
-       (completions-common-part nil)
+       (completions-common-part 'unspecified)
        (completions-first-difference             (:inherit 'bold))
 
        (cua-global-mark                          (:foreground creamsody-black :background creamsody-foreground0_hard))
@@ -702,7 +702,7 @@
        (custom-changed                           (:foreground creamsody-white :background creamsody-mid_cyan))
        (custom-comment                           (:background creamsody-background4))
        (custom-comment-tag                       (:foreground creamsody-identifiers-4))
-       (custom-documentation nil)
+       (custom-documentation 'unspecified)
        (custom-face-tag                          (:inherit 'custom-variable-tag))
        (custom-group-subtitle                    (:weight 'bold))
        (custom-group-tag                         (:height 1.2 :weight 'bold :foreground creamsody-identifiers-9 :inherit 'variable-pitch))
@@ -817,7 +817,7 @@
 
        (font-lock-comment-delimiter-face                 (:inherit 'font-lock-comment-face))
        (font-lock-doc-face                               (:inherit 'font-lock-string-face))
-       (font-lock-negation-char-face nil)
+       (font-lock-negation-char-face 'unspecified)
        (font-lock-preprocessor-face                      (:inherit 'font-lock-builtin-face))
        (font-lock-regexp-grouping-backslash              (:inherit 'bold))
        (font-lock-regexp-grouping-construct              (:inherit 'bold))
@@ -849,13 +849,13 @@
        (gnus-group-news-2                        (:weight 'bold :foreground creamsody-bright_cyan))
        (gnus-group-news-2-empty                  (:foreground creamsody-bright_cyan))
        (gnus-group-news-3                        (:weight 'bold))
-       (gnus-group-news-3-empty nil)
+       (gnus-group-news-3-empty 'unspecified)
        (gnus-group-news-4                        (:weight 'bold))
-       (gnus-group-news-4-empty nil)
+       (gnus-group-news-4-empty 'unspecified)
        (gnus-group-news-5                        (:weight 'bold))
-       (gnus-group-news-5-empty nil)
+       (gnus-group-news-5-empty 'unspecified)
        (gnus-group-news-6                        (:weight 'bold))
-       (gnus-group-news-6-empty nil)
+       (gnus-group-news-6-empty 'unspecified)
        (gnus-group-news-low                      (:weight 'bold :foreground creamsody-neutral_cyan))
        (gnus-group-news-low-empty                (:foreground creamsody-neutral_cyan))
        (gnus-splash                              (:foreground creamsody-identifiers-4))
@@ -874,7 +874,7 @@
        (gnus-summary-normal-read                 (:foreground creamsody-neutral_yellow))
        (gnus-summary-normal-ticked               (:foreground creamsody-identifiers-15))
        (gnus-summary-normal-undownloaded         (:weight 'normal :foreground creamsody-faded_cyan))
-       (gnus-summary-normal-unread nil)
+       (gnus-summary-normal-unread 'unspecified)
        (gnus-summary-selected                    (:underline t))
 
        (haskell-debug-heading-face               (:inherit ('quote 'font-lock-keyword-face)))
@@ -979,7 +979,7 @@
        (mc/cursor-face                           (:inverse-video t))
        (mc/region-face                           (:inherit 'region))
 
-       (menu nil)
+       (menu 'unspecified)
 
        (minibuffer-complete-cycle                (:inherit 'secondary-selection))
 
@@ -989,7 +989,7 @@
        (mode-line-emphasis                       (:weight 'bold))
        (mode-line-highlight                      (:box (:line-width 2 :color creamsody-background3 :style 'released-button)))
 
-       (mouse nil)
+       (mouse 'unspecified)
 
        (nameless-face                            (:inherit 'font-lock-type-face))
 
@@ -1025,7 +1025,7 @@
 
        (rectangle-preview                        (:inherit 'region))
 
-       (scroll-bar nil)
+       (scroll-bar 'unspecified)
 
        (semantic-highlight-edits-face            (:background creamsody-background0_soft))
        (semantic-highlight-func-current-tag-face (:background creamsody-background0_soft))
@@ -1039,7 +1039,7 @@
        (shr-strike-through                       (:strike-through t))
 
        (smerge-base                              (:background creamsody-medium))
-       (smerge-refined-changed nil)
+       (smerge-refined-changed 'unspecified)
 
        (sp-show-pair-enclosing                   (:inherit 'highlight))
        (sp-wrap-overlay-closing-pair             (:foreground creamsody-faded_red :inherit 'sp-wrap-overlay-face))
@@ -1072,7 +1072,7 @@
        (vc-missing-state                         (:inherit 'vc-state-base))
        (vc-needs-update-state                    (:inherit 'vc-state-base))
        (vc-removed-state                         (:inherit 'vc-state-base))
-       (vc-state-base nil)
+       (vc-state-base 'unspecified)
        (vc-up-to-date-state                      (:inherit 'vc-state-base))
 
        (w3m-haddock-heading-face                 (:inherit 'highlight))
@@ -1093,7 +1093,7 @@
        (widget-inactive                          (:inherit 'shadow))
        (widget-single-line-field                 (:background creamsody-background4))
 
-       (yas--field-debug-face nil)
+       (yas--field-debug-face 'unspecified)
        (yas-field-highlight-face                 (:inherit ('quote 'region))))
 
      ,@body))

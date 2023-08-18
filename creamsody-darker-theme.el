@@ -19,6 +19,7 @@
   (error "Requires Emacs 24 or later"))
 
 (require 'creamsody)
+(load-theme 'creamsody-theme t)
 
 (creamsody-deftheme creamsody-darker
  "Straight from the soda fountain."
