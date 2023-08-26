@@ -4,7 +4,7 @@
 ;;
 ;; Authors: Jason Milkins <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-creamsody
-;; Version: 1.0.6
+;; Version: 1.0.7
 ;; Package-Requires: ((autothemer "0.2") (emacs "24"))
 ;;
 ;;; Commentary:
@@ -313,7 +313,8 @@
        ;; MODE SUPPORT: isearch)
        (isearch                                   (:foreground creamsody-foreground0 :background creamsody-mid_cyan))
        (isearch-fail                              (:foreground creamsody-foreground0_hard :background creamsody-faded_red))
-
+       (isearch-group-1                           (:foreground creamsody-foreground0 :background creamsody-mid_green))
+       (isearch-group-2                           (:foreground creamsody-foreground0 :background creamsody-mid_purple))
        ;; MODE SUPPORT: show-paren)
        (show-paren-match                          (:foreground creamsody-foreground0 :background creamsody-background2))
        (show-paren-mismatch                       (:foreground creamsody-foreground0_hard :background creamsody-faded_red))
@@ -1012,7 +1013,7 @@
        (package-status-new                       (:inherit ('bold 'package-status-available)))
        (package-status-unsigned                  (:inherit 'font-lock-warning-face))
 
-       (popup-isearch-match                      (:background creamsody-bright_green :inherit 'default))
+       (popup-isearch-match                      (:background creamsody-mid_cyan :inherit 'default))
        (popup-menu-face                          (:inherit 'popup-face))
        (popup-menu-summary-face                  (:inherit 'popup-summary-face))
        (popup-scroll-bar-background-face         (:background creamsody-neutral_purple))
