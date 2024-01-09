@@ -4,7 +4,7 @@
 
 ;; Authors: Jason Milkins <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-creamsody
-;; Version: 1.0.7
+;; Version: 1.0.8.alpha
 ;; Package-Requires: ((autothemer "0.2") (emacs "24"))
 
 ;;; Commentary:
@@ -26,7 +26,7 @@
    ((class color) (min-colors #xFF)))    ;; color column 2 Xterm/256
 
   (creamsody-background0_hard     "#000000" "#000000")
-  (creamsody-background0          "#131418" "#0C0C0C")
+  (creamsody-background0          "#000000" "#000000")
   (creamsody-background0_soft     "#181616" "#161616")
   (creamsody-background1          "#22201E" "#202020")
   (creamsody-background2          "#36312E" "#343434")
