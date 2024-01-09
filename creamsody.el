@@ -1,10 +1,10 @@
 ;;; creamsody.el --- Straight from the soda fountain
 ;;
-;; Copyright (c) 2015-2022 Jason Milkins (GNU/GPL Licence)
+;; Copyright (c) 2015-2024 Jason Milkins (GNU/GPL Licence)
 ;;
 ;; Authors: Jason Milkins <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-creamsody
-;; Version: 1.0.7
+;; Version: 1.0.8
 ;; Package-Requires: ((autothemer "0.2") (emacs "24"))
 ;;
 ;;; Commentary:
@@ -31,6 +31,7 @@
        (link-visited                              (:foreground creamsody-bright_blue :underline nil))
 
        (mode-line                                 (:foreground creamsody-foreground1 :background creamsody-background0_hard :box nil))
+       (mode-line-active                          (:inherit 'mode-line))
        (mode-line-inactive                        (:foreground creamsody-foreground4 :background creamsody-background2 :box nil))
        (fringe                                    (:background creamsody-background0))
        (vertical-border                           (:foreground creamsody-muted_blue))
