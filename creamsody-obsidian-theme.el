@@ -25,8 +25,8 @@
  ((((class color) (min-colors #xFFFFFF)) ;; color column 1 GUI/24bit
    ((class color) (min-colors #xFF)))    ;; color column 2 Xterm/256
 
-  (creamsody-background0_hard     "#030303" "#030303")
-  (creamsody-background0          "#030303" "#030303")
+  (creamsody-background0_hard     "#090909" "#090909")
+  (creamsody-background0          "#090909" "#090909")
   (creamsody-background0_soft     "#181616" "#161616")
   (creamsody-background1          "#22201E" "#202020")
   (creamsody-background2          "#36312E" "#343434")
