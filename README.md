@@ -1,6 +1,6 @@
 [![MELPA](http://stable.melpa.org/packages/creamsody-theme-badge.svg)](http://stable.melpa.org/#/creamsody-theme) [![MELPA](http://melpa.org/packages/creamsody-theme-badge.svg)](http://melpa.org/#/creamsody-theme)
 
-# Creamsody
+# Creamsody 1.0.11
 
 ![](images/creamsody.png)
 
@@ -23,28 +23,12 @@ When your Emacs is setup to use MELPA do this:
 M-x package-install creamsody-theme
 ```
 
-Creamsody now comes in 3 variations, the original theme is still called `creamsody` and there are 2 
-darker/higher contrast versions, `creamsody-dark` and `creamsody-darker`.
+Creamsody has 5 variations, the original theme called `creamsody` and 4 darker versions, with increasing level of darkness/contrast.
 
-We'll need to tell Emacs that the themes are safe, so we'll load them and respond to the Emacs prompts.
-
-For creamsody:
-
-```
-M-x load-theme creamsody
-```
-
-For creamsody-dark:
-
-```
-M-x load-theme creamsody-dark
-```
-
-For creamsody-darker:
-
-```
-M-x load-theme creamsody-darker
-```
+- `creamsody-dark`
+- `creamsody-darker`
+- `creamsody-obsidian`
+- `creamsody-pitchblack`
 
 ## Screenshots
 
@@ -75,6 +59,14 @@ M-x load-theme creamsody-darker
 ![](screenshots/creamsody-darker-shell.png)
 
 ![](screenshots/creamsody-darker-yaml.png)
+
+# Creamsody Obsidian 
+
+![](screenshots/creamsody-obsidian.png)
+
+# Creamsody Pitchblack
+
+![](screenshots/creamsody-pitchblack.png)
 
 ### Creamsody Mode line
 
