@@ -1,3 +1,7 @@
+> Hi all, Please consider donating to this or any of my many of opensource projects.
+> 
+> <a href='https://ko-fi.com/F1F714HTLD' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
 [![MELPA](http://stable.melpa.org/packages/creamsody-theme-badge.svg)](http://stable.melpa.org/#/creamsody-theme) [![MELPA](http://melpa.org/packages/creamsody-theme-badge.svg)](http://melpa.org/#/creamsody-theme)
 
 # Creamsody 1.0.11
