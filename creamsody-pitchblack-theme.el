@@ -1,10 +1,10 @@
 ;;; creamsody-pitchblack-theme.el --- Straight from the soda fountain
 
-;; Copyright (c) 2015-2024 Jason Milkins (GNU/GPL Licence)
+;; Copyright (c) 2015-2025 Jason Milkins (GNU/GPL Licence)
 
 ;; Authors: Jason Milkins <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-creamsody
-;; Version: 1.0.11
+;; Version: 1.0.12
 ;; Package-Requires: ((autothemer "0.2") (emacs "24"))
 
 ;;; Commentary:
@@ -127,7 +127,7 @@
   (creamsody-aquamarine4          "#83A598" "aquamarine4")
   (creamsody-turquoise4           "#61ACBB" "turquoise4"))
 
- (custom-theme-set-variables 'creamsody
+ (custom-theme-set-variables 'creamsody-pitchblack
                             `(pos-tip-foreground-color ,creamsody-foreground0_hard)
                             `(pos-tip-background-color ,creamsody-background_aqua)
                             `(ansi-color-names-vector [,creamsody-background1

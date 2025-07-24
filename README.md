@@ -4,7 +4,7 @@
 
 [![MELPA](http://stable.melpa.org/packages/creamsody-theme-badge.svg)](http://stable.melpa.org/#/creamsody-theme) [![MELPA](http://melpa.org/packages/creamsody-theme-badge.svg)](http://melpa.org/#/creamsody-theme)
 
-# Creamsody 1.0.11
+# Creamsody 1.0.12
 
 ![](images/creamsody.png)
 

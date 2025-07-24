@@ -1,10 +1,10 @@
 ;;; creamsody.el --- Straight from the soda fountain
 ;;
-;; Copyright (c) 2015-2024 Jason Milkins (GNU/GPL Licence)
+;; Copyright (c) 2015-2025 Jason Milkins (GNU/GPL Licence)
 ;;
 ;; Authors: Jason Milkins <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-creamsody
-;; Version: 1.0.11
+;; Version: 1.0.12
 ;; Package-Requires: ((autothemer "0.2") (emacs "24"))
 ;;
 ;;; Commentary:
